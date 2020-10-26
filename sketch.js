@@ -34,7 +34,7 @@ function setup() {
 	rightSprite = createSprite(490,610,20,100);
 	rightSprite.shapeColor=color("red")
 
-    engine = Engine.create();
+        engine = Engine.create();
 	world = engine.world;
 
 	bottomBody = Bodies.rectangle(400,650,200,20,{isStatic:true} );
