@@ -37,7 +37,7 @@ function setup() {
         engine = Engine.create();
 	world = engine.world;
 
-	bottomBody = Bodies.rectangle(400,650,200,20,{isStatic:true} );
+	bottomBody = Bodies.rectangle(400,630,200,20,{isStatic:true} );
 	World.add(world, bottomBody);
 
 	leftBody = Bodies.rectangle(300,610,20,100,{isStatic:true} );
@@ -65,14 +65,14 @@ function draw() {
   packageSprite.x = packageBody.position.x 
   packageSprite.y = packageBody.position.y 
 
-  bottomSprite.x = bottomBody.position.x 
-  bottomSprite.y = bottomBody.position.y 
+//   bottomSprite.x = bottomBody.position.x 
+//   bottomSprite.y = bottomBody.position.y 
 
-  leftSprite.x = leftBody.position.x 
-  leftSprite.y = leftBody.position.y 
+//   leftSprite.x = leftBody.position.x 
+//   leftSprite.y = leftBody.position.y 
 
-  rightSprite.x = rightBody.position.x 
-  rightSprite.y = rightBody.position.y 
+//   rightSprite.x = rightBody.position.x 
+//   rightSprite.y = rightBody.position.y 
 
   keyPressed();
 
